@@ -1,28 +1,28 @@
 class ClaudeDeck < Formula
   desc "Watch Claude Code sessions: scratchpad files, tasks and every tool call"
   homepage "https://github.com/bigsan/claude-deck"
-  version "0.2.2"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bigsan/claude-deck/releases/download/v0.2.2/claude-deck-v0.2.2-aarch64-apple-darwin.tar.gz"
-      sha256 "62dcd1c87316d229e26f7f81f5b4ffe359d22472f3a26ce2b9cb451a4508e345"
+      url "https://github.com/bigsan/claude-deck/releases/download/v0.3.0/claude-deck-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f10e8125ce763be9468792ad44f0a0b886b044ea84effdb45dbadbdd4729c793"
     end
     on_intel do
-      url "https://github.com/bigsan/claude-deck/releases/download/v0.2.2/claude-deck-v0.2.2-x86_64-apple-darwin.tar.gz"
-      sha256 "38c904f1772c937714391c089a1cc8b1162110f1cc17167f041297f9d4195097"
+      url "https://github.com/bigsan/claude-deck/releases/download/v0.3.0/claude-deck-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "b3a50239f7359b2e064d72446cae597417113f4d70849be6c1a4d19c049d5266"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bigsan/claude-deck/releases/download/v0.2.2/claude-deck-v0.2.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "cb1fabc180ade6a9505aac0b75f20fac1eea1e0cd70d82e51f27776a8be2f156"
+      url "https://github.com/bigsan/claude-deck/releases/download/v0.3.0/claude-deck-v0.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d8d6739a6c87d159f538283805dfc3042121b46906c13fe1bcd24fbd2831243d"
     end
     on_intel do
-      url "https://github.com/bigsan/claude-deck/releases/download/v0.2.2/claude-deck-v0.2.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "090f23e27535e9a601e8d0e41a0218ca9cd40bc0443eb274821b61e56c73cbe1"
+      url "https://github.com/bigsan/claude-deck/releases/download/v0.3.0/claude-deck-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "3b8dbb7021ae717cd7f9a6e27f006672aa2aade0423e82b345060ca8f137b05f"
     end
   end
 
